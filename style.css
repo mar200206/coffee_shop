@@ -44,7 +44,7 @@ header.shadow{
    box-shadow: var(--box-shadow);
 }
 .logo img{
-   width: 60px;
+   width: 90px;
 }
 .navbar{
    display: flex;
@@ -109,7 +109,7 @@ header.shadow{
 .home {
    width: 100%;
    min-height: 100vh;
-   background: url(img/bg.png);
+   background: url(img/footoo23.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -119,16 +119,16 @@ header.shadow{
    gap: 1.5rem;
 }
 .home-text h1{
-   font-size: 3.4rem;
+   font-size: 2.5rem;
    color: var(--main-color);
    text-transform: uppercase;
    letter-spacing: 1px;
 }
 .home-text p{
-  font-size: 0.983rem;
+  font-size: 1.0rem;
   color: var(--main-color);
   margin: 0.5rem 0 1.4rem;
-  letter-spacing: 1.25px;
+  letter-spacing: 1.30px;
 }
 .bth {
    padding: 10px 40px;
@@ -166,8 +166,8 @@ header.shadow{
 }
 .products-container{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-   gap: 1.5rem;
+   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+   gap: 1.9rem;
    margin-top: 2rem;
 }
 .products-container .box{
